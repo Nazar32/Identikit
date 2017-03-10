@@ -12,7 +12,7 @@ namespace Identikit.Migrations
                 c => new
                 {
                     Id = c.Guid(nullable: false),
-                    Name = c.String(nullable: false, maxLength: 50),
+                    Name = c.String(nullable: false, maxLength: 50), 
                     Surname = c.String(nullable: false, maxLength: 50),
                     Lastname = c.String(nullable: false, maxLength: 50),
                     Height = c.Double(nullable: false),
