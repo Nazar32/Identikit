@@ -82,13 +82,88 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\Identikit.dll" />
+    <Content Include="bin\Debug\Identikit.pdb" />
+    <Content Include="bin\Debug\Identikit.Tests.dll" />
+    <Content Include="bin\Debug\Identikit.Tests.pdb" />
+    <Content Include="bin\Debug\Microsoft.AspNet.Identity.Core.dll" />
+    <Content Include="bin\Debug\Microsoft.AspNet.Identity.Core.xml" />
+    <Content Include="bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll" />
+    <Content Include="bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml" />
+    <Content Include="bin\Debug\Microsoft.AspNet.Identity.Owin.dll" />
+    <Content Include="bin\Debug\Microsoft.AspNet.Identity.Owin.xml" />
+    <Content Include="bin\Debug\Microsoft.Owin.dll" />
+    <Content Include="bin\Debug\Microsoft.Owin.Host.SystemWeb.dll" />
+    <Content Include="bin\Debug\Microsoft.Owin.Host.SystemWeb.xml" />
+    <Content Include="bin\Debug\Microsoft.Owin.Security.Cookies.dll" />
+    <Content Include="bin\Debug\Microsoft.Owin.Security.Cookies.xml" />
+    <Content Include="bin\Debug\Microsoft.Owin.Security.dll" />
+    <Content Include="bin\Debug\Microsoft.Owin.Security.xml" />
+    <Content Include="bin\Debug\Microsoft.Owin.xml" />
+    <Content Include="bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" />
+    <Content Include="bin\Debug\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="bin\Debug\Owin.dll" />
+    <Content Include="bin\Debug\roslyn\csc.exe" />
+    <Content Include="bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\Debug\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="bin\Debug\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="bin\Debug\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="bin\Debug\roslyn\vbc.exe" />
+    <Content Include="bin\Debug\roslyn\VBCSCompiler.exe" />
+    <Content Include="bin\Debug\ru\EntityFramework.resources.dll" />
+    <Content Include="bin\Debug\ru\Microsoft.AspNet.Identity.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll" />
+    <Content Include="bin\Debug\ru\Microsoft.AspNet.Identity.Owin.resources.dll" />
+    <Content Include="bin\Debug\ru\Microsoft.Owin.Host.SystemWeb.resources.dll" />
+    <Content Include="bin\Debug\ru\Microsoft.Owin.resources.dll" />
+    <Content Include="bin\Debug\ru\Microsoft.Owin.Security.resources.dll" />
+    <Content Include="bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll" />
+    <Content Include="bin\Debug\ru\System.Web.Helpers.resources.dll" />
+    <Content Include="bin\Debug\ru\System.Web.Mvc.resources.dll" />
+    <Content Include="bin\Debug\ru\System.Web.Optimization.resources.dll" />
+    <Content Include="bin\Debug\ru\System.Web.Razor.resources.dll" />
+    <Content Include="bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll" />
+    <Content Include="bin\Debug\ru\System.Web.WebPages.Razor.resources.dll" />
+    <Content Include="bin\Debug\ru\System.Web.WebPages.resources.dll" />
+    <Content Include="bin\Debug\System.Web.Helpers.dll" />
+    <Content Include="bin\Debug\System.Web.Helpers.xml" />
+    <Content Include="bin\Debug\System.Web.Mvc.dll" />
+    <Content Include="bin\Debug\System.Web.Mvc.xml" />
+    <Content Include="bin\Debug\System.Web.Optimization.dll" />
+    <Content Include="bin\Debug\System.Web.Optimization.xml" />
+    <Content Include="bin\Debug\System.Web.Razor.dll" />
+    <Content Include="bin\Debug\System.Web.Razor.xml" />
+    <Content Include="bin\Debug\System.Web.WebPages.Deployment.dll" />
+    <Content Include="bin\Debug\System.Web.WebPages.Deployment.xml" />
+    <Content Include="bin\Debug\System.Web.WebPages.dll" />
+    <Content Include="bin\Debug\System.Web.WebPages.Razor.dll" />
+    <Content Include="bin\Debug\System.Web.WebPages.Razor.xml" />
+    <Content Include="bin\Debug\System.Web.WebPages.xml" />
+    <Content Include="obj\Debug\Identikit.Tests.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Identikit.Tests.dll" />
+    <Content Include="obj\Debug\Identikit.Tests.pdb" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\Identikit.Tests.dll.config" />
+    <None Include="bin\Debug\roslyn\Microsoft.CSharp.Core.targets" />
+    <None Include="bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <None Include="bin\Debug\roslyn\VBCSCompiler.exe.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Identikit.Tests.csprojResolveAssemblyReference.cache" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +171,9 @@
       <Project>{4CC7A469-52D8-4CAE-87B9-D63D69B22A31}</Project>
       <Name>Identikit</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
