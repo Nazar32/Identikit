@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Identikit.DAL.Entities
 {
-    public class PersonIdentity
+    public class PersonIdentity : Idenfiable
     {
         [Key, Required]
         public Guid Id{ get; set; }

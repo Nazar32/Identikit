@@ -6,3 +6,4 @@ D:\MyProjects\Identikit\Identikit.DAL\obj\Debug\Identikit.Migrations.personident
 D:\MyProjects\Identikit\Identikit.DAL\obj\Debug\Identikit.DAL.csproj.GenerateResource.Cache
 D:\MyProjects\Identikit\Identikit.DAL\obj\Debug\Identikit.DAL.dll
 D:\MyProjects\Identikit\Identikit.DAL\obj\Debug\Identikit.DAL.pdb
+D:\MyProjects\Identikit\Identikit.DAL\obj\Debug\Identikit.DAL.csprojResolveAssemblyReference.cache
