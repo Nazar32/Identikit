@@ -1,0 +1,8 @@
+D:\MyProjects\Identikit\Identikit.DAL\bin\Debug\Identikit.DAL.dll.config
+D:\MyProjects\Identikit\Identikit.DAL\bin\Debug\Identikit.DAL.dll
+D:\MyProjects\Identikit\Identikit.DAL\bin\Debug\Identikit.DAL.pdb
+D:\MyProjects\Identikit\Identikit.DAL\obj\Debug\Identikit.Migrations.users.resources
+D:\MyProjects\Identikit\Identikit.DAL\obj\Debug\Identikit.Migrations.personidentity.resources
+D:\MyProjects\Identikit\Identikit.DAL\obj\Debug\Identikit.DAL.csproj.GenerateResource.Cache
+D:\MyProjects\Identikit\Identikit.DAL\obj\Debug\Identikit.DAL.dll
+D:\MyProjects\Identikit\Identikit.DAL\obj\Debug\Identikit.DAL.pdb

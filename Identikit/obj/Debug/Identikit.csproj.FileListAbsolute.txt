@@ -1,0 +1,17 @@
+D:\MyProjects\Identikit\Identikit\bin\roslyn\csc.exe
+D:\MyProjects\Identikit\Identikit\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MyProjects\Identikit\Identikit\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MyProjects\Identikit\Identikit\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MyProjects\Identikit\Identikit\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MyProjects\Identikit\Identikit\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MyProjects\Identikit\Identikit\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MyProjects\Identikit\Identikit\bin\roslyn\System.Collections.Immutable.dll
+D:\MyProjects\Identikit\Identikit\bin\roslyn\System.Reflection.Metadata.dll
+D:\MyProjects\Identikit\Identikit\bin\roslyn\vbc.exe
+D:\MyProjects\Identikit\Identikit\bin\roslyn\VBCSCompiler.exe
+D:\MyProjects\Identikit\Identikit\bin\roslyn\VBCSCompiler.exe.config
+D:\MyProjects\Identikit\Identikit\bin\Identikit.dll.config
+D:\MyProjects\Identikit\Identikit\bin\Identikit.dll
+D:\MyProjects\Identikit\Identikit\bin\Identikit.pdb
+D:\MyProjects\Identikit\Identikit\obj\Debug\Identikit.dll
+D:\MyProjects\Identikit\Identikit\obj\Debug\Identikit.pdb
