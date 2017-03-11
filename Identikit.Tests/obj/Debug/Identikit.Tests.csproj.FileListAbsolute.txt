@@ -16,12 +16,7 @@ D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Identikit.Tests.pdb
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Identikit.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\System.Web.Optimization.dll
-D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
-D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.Security.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Owin.dll
-D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
-D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Identikit.pdb
 D:\MyProjects\Identikit\Identikit.Tests\obj\Debug\Identikit.Tests.csprojResolveAssemblyReference.cache
 D:\MyProjects\Identikit\Identikit.Tests\obj\Debug\Identikit.Tests.dll
@@ -35,3 +30,4 @@ D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Moq.xml
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\EntityFramework.SqlServer.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\EntityFramework.SqlServer.xml
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll

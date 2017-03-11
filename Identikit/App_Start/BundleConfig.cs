@@ -23,7 +23,7 @@ namespace Identikit
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
+            bundles.Add(new StyleBundle(Constants.BootstrapBundle).Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }

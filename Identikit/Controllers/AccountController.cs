@@ -1,12 +1,7 @@
-﻿using System;
-using System.Globalization;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
+﻿    using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Identikit.Models;
 using Identikit.DAL.Repositories;
@@ -32,6 +27,7 @@ namespace Identikit.Controllers
     {
         UserRepository _userRepo;
         ICookie _cookie;
+        List<Claim> _claims;
 
         private IAuthenticationManager Authentication
         {
@@ -52,6 +48,8 @@ namespace Identikit.Controllers
             return View();
         }
 
+        [HttpPost]
+        [AllowAnonymous]
         public ActionResult Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
@@ -68,13 +66,15 @@ namespace Identikit.Controllers
                             new Claim(ClaimTypes.Email, actualUser.Login)
                     };
 
-                    Authentication.SignIn(
-                        new AuthenticationProperties
-                        {
-                            AllowRefresh = true,
-                            IsPersistent = false
-                        },
-                        new ClaimsIdentity(claims, DefaultAuthenticationTypes.ApplicationCookie));
+                    var authProp = new AuthenticationProperties
+                    {
+                        AllowRefresh = true,
+                        IsPersistent = false
+                    };
+
+                    var claimsIdentity = new ClaimsIdentity(_claims, DefaultAuthenticationTypes.ApplicationCookie);
+
+                    Authentication.SignIn(authProp, claimsIdentity);
 
                     return RedirectToAction("Index", "Home");
                 }
@@ -89,6 +89,12 @@ namespace Identikit.Controllers
                 ViewBag.ValidationMessage = "Login data is not correct";
                 return View("LoginPage");
             }
+        }
+
+        public ActionResult Logout()
+        {
+            Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+            return View("LoginPage");
         }
     }
 }
