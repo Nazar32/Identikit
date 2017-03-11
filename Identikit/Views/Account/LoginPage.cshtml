@@ -1,0 +1,28 @@
+﻿@model Identikit.Models.LoginViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LoginPage</title>
+</head>
+<body>
+    <div class="row"> 
+        <div class="col-md-offset-2 col-md-8">
+            @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+            {
+                @Html.LabelFor(m => m.Login)
+                @Html.TextBoxFor(m => m.Login)
+                @Html.LabelFor(m => m.Password)
+                @Html.TextBoxFor(m => m.Password)
+                @Html.CheckBoxFor(m => m.RememberMe)
+                <input  type="submit" value="Login"/>
+            }
+        </div>
+    </div>
+</body>
+</html>

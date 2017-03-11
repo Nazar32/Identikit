@@ -22,7 +22,6 @@ D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.Security.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Owin.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Identikit.pdb
 D:\MyProjects\Identikit\Identikit.Tests\obj\Debug\Identikit.Tests.csprojResolveAssemblyReference.cache
 D:\MyProjects\Identikit\Identikit.Tests\obj\Debug\Identikit.Tests.dll

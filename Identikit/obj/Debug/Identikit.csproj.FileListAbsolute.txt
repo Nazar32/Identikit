@@ -17,3 +17,5 @@ D:\MyProjects\Identikit\Identikit\obj\Debug\Identikit.dll
 D:\MyProjects\Identikit\Identikit\obj\Debug\Identikit.pdb
 D:\MyProjects\Identikit\Identikit\obj\Debug\Identikit.csprojResolveAssemblyReference.cache
 D:\MyProjects\Identikit\Identikit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MyProjects\Identikit\Identikit\bin\Identikit.DAL.dll
+D:\MyProjects\Identikit\Identikit\bin\Identikit.DAL.pdb

@@ -1,5 +1,6 @@
 namespace Identikit.Migrations
 {
+    using DAL.Entities;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -14,19 +15,11 @@ namespace Identikit.Migrations
 
         protected override void Seed(Identikit.DAL.IdentikitContext context)
         {
-            
-            //  This method will be called after migrating to the latest version.
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+            context.Users.AddOrUpdate(
+              new User { Id = new Guid("00000000-0000-0000-0000-000000000000"), IsAdmin = true, Login = "admin", Password = "admin", Name = "admin" }
+            );
+
         }
     }
 }
