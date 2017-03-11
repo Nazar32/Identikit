@@ -9,6 +9,7 @@ using Identikit.DAL.Entities;
 namespace Identikit.Tests.Repositories
 {
     [TestClass]
+    [Ignore]
     public class RepositoryTests
     {
         IRepository<User> _repository;
