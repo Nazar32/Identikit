@@ -13,7 +13,7 @@ namespace Identikit.Tests.Controllers
     public class HomeControllerTest
     {
         [TestMethod]
-        public void Index()
+        public void IndexShouldNotBeEmpty()
         {
             // Arrange
             HomeController controller = new HomeController();

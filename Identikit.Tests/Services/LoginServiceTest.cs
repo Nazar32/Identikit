@@ -12,12 +12,12 @@ using System.Threading.Tasks;
 namespace Identikit.Tests.Services
 {
     [TestClass]
-    public class LoginServiceTests
+    public class LoginServiceTest
     {
         Mock<IUserRepository> _userRepo;
         ILoginService _loginService;
 
-        public LoginServiceTests()
+        public LoginServiceTest()
         {
             _userRepo = new Mock<IUserRepository>();
             _loginService = new LoginService(_userRepo.Object);

@@ -5,6 +5,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.AspNet.Identity;
 
 [assembly: OwinStartup(typeof(Identikit.App_Start.Startup))]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(Identikit.App_Start.NinjectWebCommon), "Start")]
+[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(Identikit.App_Start.NinjectWebCommon), "Stop")]
 
 namespace Identikit.App_Start
 {

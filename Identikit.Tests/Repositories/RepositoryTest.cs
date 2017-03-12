@@ -10,12 +10,12 @@ namespace Identikit.Tests.Repositories
 {
     [TestClass]
     [Ignore]
-    public class RepositoryTests
+    public class RepositoryTest
     {
         IRepository<User> _repository;
         User user;
 
-        public RepositoryTests()
+        public RepositoryTest()
         {
             _repository = new Repository<User>();
         }

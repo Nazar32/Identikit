@@ -14,7 +14,6 @@ D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Identikit.Tests.dll.config
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Identikit.Tests.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Identikit.Tests.pdb
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Identikit.dll
-D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\System.Web.Optimization.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Owin.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Identikit.pdb
@@ -33,3 +32,8 @@ D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\ru\EntityFramework.SqlServer.r
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\WebActivatorEx.dll
+D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Ninject.dll
+D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Ninject.Web.Common.dll
+D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Ninject.xml
+D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Ninject.Web.Common.xml

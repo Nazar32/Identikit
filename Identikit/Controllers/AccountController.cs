@@ -8,6 +8,7 @@ using Identikit.DAL.Repositories;
 using System.Web.Security;
 using System.Collections.Generic;
 using Identikit.DAL.Services;
+using System;
 
 namespace Identikit.Controllers
 {
@@ -26,23 +27,24 @@ namespace Identikit.Controllers
 
     public class AccountController : Controller
     {
-        UserRepository _userRepo;
+        IUserRepository _userRepo;
         ILoginService _loginService;
         ICookie _cookie;
-        List<Claim> _claims;
 
-        private IAuthenticationManager Authentication
+        public IAuthenticationManager Authentication
         {
             get
             {
                 return HttpContext.GetOwinContext().Authentication;
             }
+            set {}
         }
 
-        public AccountController()
+        public AccountController(IUserRepository userRepo, ICookie cookie, ILoginService loginService)
         {
-            _userRepo = new UserRepository();
-            _cookie = new Cookie();
+            _userRepo = userRepo;
+            _cookie = cookie;
+            _loginService = loginService;
         }
 
         public ActionResult LoginPage()
@@ -74,7 +76,7 @@ namespace Identikit.Controllers
                         IsPersistent = false
                     };
 
-                    var claimsIdentity = new ClaimsIdentity(_claims, DefaultAuthenticationTypes.ApplicationCookie);
+                    var claimsIdentity = new ClaimsIdentity(claims, DefaultAuthenticationTypes.ApplicationCookie);
 
                     Authentication.SignIn(authProp, claimsIdentity);
 
@@ -82,7 +84,7 @@ namespace Identikit.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError("incorrect login", "Login data is incorrect!");
+                    ModelState.AddModelError("incorrect credentials", "Login data is incorrect!");
                     return View("LoginPage");
                 }
             }

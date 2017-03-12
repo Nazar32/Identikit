@@ -18,3 +18,10 @@ D:\MyProjects\Identikit\Identikit\obj\Debug\Identikit.pdb
 D:\MyProjects\Identikit\Identikit\obj\Debug\Identikit.csprojResolveAssemblyReference.cache
 D:\MyProjects\Identikit\Identikit\bin\Identikit.DAL.dll
 D:\MyProjects\Identikit\Identikit\bin\Identikit.DAL.pdb
+D:\MyProjects\Identikit\Identikit\bin\Ninject.dll
+D:\MyProjects\Identikit\Identikit\bin\Ninject.Web.Common.dll
+D:\MyProjects\Identikit\Identikit\bin\Ninject.Web.Mvc.dll
+D:\MyProjects\Identikit\Identikit\bin\WebActivatorEx.dll
+D:\MyProjects\Identikit\Identikit\bin\Ninject.xml
+D:\MyProjects\Identikit\Identikit\bin\Ninject.Web.Common.xml
+D:\MyProjects\Identikit\Identikit\bin\Ninject.Web.Mvc.xml
