@@ -1,4 +1,4 @@
-﻿    using System.Security.Claims;
+﻿using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
@@ -7,6 +7,7 @@ using Identikit.Models;
 using Identikit.DAL.Repositories;
 using System.Web.Security;
 using System.Collections.Generic;
+using Identikit.DAL.Services;
 
 namespace Identikit.Controllers
 {
@@ -26,6 +27,7 @@ namespace Identikit.Controllers
     public class AccountController : Controller
     {
         UserRepository _userRepo;
+        ILoginService _loginService;
         ICookie _cookie;
         List<Claim> _claims;
 
@@ -54,11 +56,11 @@ namespace Identikit.Controllers
         {
             if (ModelState.IsValid)
             {
-                var loginResult = _userRepo.CheckIsUserValid(model.Login, model.Password);
+                var loginResult = _loginService.CheckIsUserValid(model.Login, model.Password);
                 if (loginResult)
                 {
                     _cookie.SetCookie(model.Login, model.RememberMe);
-                    var actualUser = _userRepo.GetByLogin(model.Login);
+                    var actualUser = _userRepo.GetByCredentials(model.Login, model.Password);
                     var claims = new List<Claim>()
                     {
                             new Claim(ClaimTypes.NameIdentifier, actualUser.ToString()),

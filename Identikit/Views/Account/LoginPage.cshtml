@@ -40,7 +40,7 @@
                 </tr>
                 <tr>
                     <td>
-                        @Html.LabelFor(m => m.RememberMe)
+                        <label for="RememberMe">Remember me</label>
                     </td>
                     <td>
                         @Html.CheckBoxFor(m => m.RememberMe)
@@ -48,7 +48,12 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                       <input type="submit" value="Login" class="btn btn-info" style="max-width: 100%; width: 100%; color: #000;" />
+                       <input type="submit" value="Sign In" class="btn btn-info" style="max-width: 100%; width: 100%; color: #000;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Sign Up" class="btn btn-info" style="max-width: 100%; width: 100%; color: #000;" />
                     </td>
                 </tr>
             </table>

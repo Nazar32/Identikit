@@ -7,32 +7,18 @@ using System.Threading.Tasks;
 
 namespace Identikit.DAL.Repositories
 {
-    public class UserRepository: Repository<User>, IRepository<User>
+    public class UserRepository: Repository<User>, IUserRepository 
     {
         public UserRepository()
         {
 
         }
 
-        public bool CheckIsUserValid(string login, string password)
-        {
-            if (string.IsNullOrEmpty(login) || string.IsNullOrEmpty(password))
-            {
-                return false;
-            }
-            using (var context = new IdentikitContext())
-            {
-                var result = context.Set<User>().FirstOrDefault(u => u.Login == login && 
-                                                                u.Password == password);
-                return result != null;
-            }
-        }
-
-        public User GetByLogin(string login)
+        public User GetByCredentials(string login, string password)
         {
             using (var context = new IdentikitContext())
             {
-                return context.Set<User>().FirstOrDefault(u => u.Login == login);
+                return context.Set<User>().FirstOrDefault(u => u.Login == login && u.Password == password);
             }
         }
     }

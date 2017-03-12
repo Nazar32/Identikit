@@ -31,3 +31,5 @@ D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\EntityFramework.SqlServer.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\EntityFramework.SqlServer.xml
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
 D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\MyProjects\Identikit\Identikit.Tests\bin\Debug\Microsoft.Owin.Security.dll
