@@ -7,6 +7,9 @@ namespace Identikit
 {
     public class Constants
     {
-        public const string BootstrapBundle = "~/Content/css";
+        public const string BootstrapStyleBundle = "~/Content/css";
+        public const string LoginStylesBundle = "~/Content/Login";
+        public const string ResetStylesBundle = "~/Content/reset";
+        public const string LayoutStylesBundle = "~/Content/Layout";
     }
 }

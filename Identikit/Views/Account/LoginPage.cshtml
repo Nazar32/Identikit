@@ -5,17 +5,19 @@
 
 <!DOCTYPE html>
 
-<html style="width: 100%; height: 100%;">
+<html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>LoginPage</title>
-    @Styles.Render(Identikit.Constants.BootstrapBundle)
+    @Styles.Render(Identikit.Constants.ResetStylesBundle)
+    @Styles.Render(Identikit.Constants.BootstrapStyleBundle)
+    @Styles.Render(Identikit.Constants.LoginStylesBundle)
 </head>
-<body style="width: 100%; height: 100%;">
-    <div class="center-wrapper" style="display: flex; align-items: center; justify-content: center; height: 100%; padding-bottom: 5%;">
+<body>
+    <div class="login-center-wrapper">
         @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "col-md-8" }))
         {
-            <table style="margin: 0 auto;" cellpadding="8">
+            <table cellpadding="8">
                 <tr>
                     <td>
                         @Html.LabelFor(m => m.Login)
@@ -48,12 +50,12 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                       <input type="submit" value="Sign In" class="btn btn-info" style="max-width: 100%; width: 100%; color: #000;" />
+                       <input type="submit" value="Sign In" class="btn btn-info login-btn"/>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <input type="submit" value="Sign Up" class="btn btn-info" style="max-width: 100%; width: 100%; color: #000;" />
+                        <input type="submit" value="Sign Up" class="btn btn-info login-btn"/>
                     </td>
                 </tr>
             </table>
